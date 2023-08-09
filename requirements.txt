@@ -1,0 +1,11 @@
+pandas
+numpy
+flask
+seaborn 
+matplotlib
+scipy
+sklearn
+requests
+cufflinks
+ipykernel
+-e .
