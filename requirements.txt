@@ -4,7 +4,7 @@ flask
 seaborn 
 matplotlib
 scipy
-sklearn
+scikit-learn
 requests
 cufflinks
 ipykernel
