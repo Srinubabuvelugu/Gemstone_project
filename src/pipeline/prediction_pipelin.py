@@ -1,11 +1,10 @@
-import os
 import sys
+import os
 from src.exception import CustomException
 from src.logger import logging
 from src.utils import load_object
-from sklearn.model_selection import train_test_split
 import pandas as pd
-import numpy as np
+from sklearn.preprocessing import StandardScaler
 
 class PredictPipeline:
     def __init__(self) -> None:

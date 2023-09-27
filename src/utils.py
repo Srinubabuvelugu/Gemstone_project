@@ -44,7 +44,7 @@ def evaluate_model(X_train,y_train,X_test,y_test,models):
 def load_object(file_path):
     try:
         with open(file_path,'rb') as file_obj:
-            pass
+            return pickle.load(file_obj)
     except Exception as e:
         logging.error('Error occured in load_objects function in utils')
         raise CustomException(e,sys)
