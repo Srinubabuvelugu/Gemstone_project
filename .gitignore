@@ -125,12 +125,15 @@ celerybeat.pid
 
 # Environments
 .env
+.gemstone_env
+gemstone_env/
 .venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+
 
 # Spyder project settings
 .spyderproject
@@ -143,6 +146,7 @@ venv.bak/
 /site
 
 # mypy
+
 .mypy_cache/
 .dmypy.json
 dmypy.json
