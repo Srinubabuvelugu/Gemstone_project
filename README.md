@@ -7,5 +7,5 @@ conda activate house_price_env/
 ```
 ## To install all require libraries
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
